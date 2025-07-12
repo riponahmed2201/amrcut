@@ -14,6 +14,6 @@ Route::post('/admin/login', [AuthController::class, 'login'])->name('admin.login
 
 //Protected Route
 Route::middleware(['XSS', 'admin', 'preventBackHistory'])->group(function () {
-    Route::get('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
+    Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
 });
