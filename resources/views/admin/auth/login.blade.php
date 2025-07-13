@@ -66,7 +66,7 @@
                                         <div class="input-group">
                                             <input type="email" name="email"
                                                    class="form-control @error('email') is-invalid @enderror" id="email"
-                                                   required placeholder="Enter email" value="{{ old('email') }}">
+                                                   required value="{{ old('email') }}">
                                             @error('email')
                                             <span class="text-danger mt-2">{{ $message }}</span>
                                             @enderror
@@ -78,7 +78,7 @@
                                         <input type="password" name="password"
                                                class="form-control @error('password') is-invalid @enderror"
                                                id="password"
-                                               required placeholder="Enter password">
+                                               required>
                                         @error('password')
                                         <span class="text-danger mt-2">{{ $message }}</span>
                                         @enderror

@@ -1,0 +1,92 @@
+﻿@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("../fonts/flaticon.ttf") format("truetype"), url("../fonts/flaticon.woff") format("woff"), url("../fonts/flaticon.woff2") format("woff2"), url("../fonts/flaticon.eot") format("embedded-opentype"), url("../fonts/flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-strategy:before {
+  content: "";
+}
+
+.flaticon-consistency:before {
+  content: "";
+}
+
+.flaticon-return-of-investment:before {
+  content: "";
+}
+
+.flaticon-carpenter:before {
+  content: "";
+}
+
+.flaticon-drill:before {
+  content: "";
+}
+
+.flaticon-warehouse:before {
+  content: "";
+}
+
+.flaticon-carpenter-1:before {
+  content: "";
+}
+
+.flaticon-digital-marketing:before {
+  content: "";
+}
+
+.flaticon-resource:before {
+  content: "";
+}
+
+.flaticon-trophy:before {
+  content: "";
+}
+
+.flaticon-customer:before {
+  content: "";
+}
+
+.flaticon-policy:before {
+  content: "";
+}
+
+.flaticon-headhunting:before {
+  content: "";
+}
+
+.flaticon-job-interview:before {
+  content: "";
+}
+
+.flaticon-office-worker:before {
+  content: "";
+}
+
+.flaticon-customer-service:before {
+  content: "";
+}
+
+.flaticon-earth-grid:before {
+  content: "";
+}
+
+.flaticon-carpenter-2:before {
+  content: "";
+}
+
+.flaticon-carpenter-3:before {
+  content: "";
+}
