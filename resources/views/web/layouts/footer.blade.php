@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-logo-area">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt="logo"></a>
+                        <a href="index.html"><img src="assets/web/images/white-logo.png" alt="logo"></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua quis ipsum facilisis. </p>
                         <div class="social-icons">
@@ -27,7 +27,7 @@
                         <ul>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="team.html">Our Experts</a></li>
-                            <li><a href="service.html">Our Services</a></li>
+                            <li><a href="/services">Our Services</a></li>
                             <li><a href="testimonial.html">Testimonials</a></li>
                             <li><a href="pricing.html">Our Pricing Plans</a></li>
                             <li><a href="blog.html">Our Latest News</a></li>
@@ -38,12 +38,13 @@
                     <div class="footer-links footer-services">
                         <h3>Services</h3>
                         <ul>
-                            <li><a href="service.html">Home Repair</a></li>
-                            <li><a href="service.html">Tile Services</a></li>
-                            <li><a href="service.html">Custom Shelving</a></li>
-                            <li><a href="service.html">Painting Services</a></li>
-                            <li><a href="service.html">Plumbing Services</a></li>
-                            <li><a href="service.html">Installation Services</a></li>
+                            <li><a href="/services">Feather</a></li>
+                            <li><a href="/services">Fibre</a></li>
+                            <li><a href="/services">Foam</a></li>
+                            <li><a href="/services">Combination Filling</a></li>
+                            <li><a href="/services">CAD/Cutting</a></li>
+                            <li><a href="/services">Sewing</a></li>
+                            <li><a href="/services">Transport</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +59,8 @@
                         <div class="footer-contact-card">
                             <h5>Email:</h5>
                             <p><a href="/cdn-cgi/l/email-protection#067573767669747246716f756e7f2865696b"><span
-                                        class="__cf_email__" data-cfemail="35464045455a474175425c465d4c1b565a58">[email&#160;protected]</span></a>
+                                        class="__cf_email__"
+                                        data-cfemail="35464045455a474175425c465d4c1b565a58">[email&#160;protected]</span></a>
                             </p>
                         </div>
                         <div class="footer-contact-card">
@@ -72,7 +74,9 @@
     </div>
     <div class="copyright">
         <div class="container">
-            <p>© Wishy is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+            <p>©{{ date('Y') }} Developed by <a href="https://riponahmed2201.github.io" target="_blank">Md. Ripon
+                    Mia</a>
+            </p>
         </div>
     </div>
 </div>

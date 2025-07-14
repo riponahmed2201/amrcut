@@ -8,9 +8,11 @@
                             <li><i class="fas fa-headphones"></i> <a href="tel:562601620">562-60-4620</a></li>
                             <li><i class="fas fa-envelope"></i> <a
                                     href="/cdn-cgi/l/email-protection#63101613130c111723140a100b1a4d000c0e"><span
-                                        class="__cf_email__" data-cfemail="a8dbddd8d8c7dadce8dfc1dbc0d186cbc7c5">[email&#160;protected]</span></a>
+                                        class="__cf_email__"
+                                        data-cfemail="a8dbddd8d8c7dadce8dfc1dbc0d186cbc7c5">[email&#160;protected]</span></a>
                             </li>
-                            <li><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/cxFkYVuFgj7tME648">25/50
+                            <li><i class="fas fa-map-marker-alt"></i> <a
+                                    href="https://goo.gl/maps/cxFkYVuFgj7tME648">25/50
                                     Street Here United For Australia</a></li>
                         </ul>
                         <div class="language-select option-select-area">

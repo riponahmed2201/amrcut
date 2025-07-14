@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,26 +8,28 @@
 
     <title>Home - Amr Cut</title>
 
-    @include('frontend.layouts.styles')
+    @include('web.layouts.styles')
 
 </head>
+
 <body>
 
-@include('frontend.layouts.topbar')
+    @include('web.layouts.topbar')
 
-<!-- navigation bar area start -->
-@include('frontend.layouts.header')
-<!-- navigation bar area end -->
+    <!-- navigation bar area start -->
+    @include('web.layouts.header')
+    <!-- navigation bar area end -->
 
-@yield('content')
+    @yield('web-content')
 
-<!-- footer area start -->
-@include('frontend.layouts.footer')
-<!-- footer area end -->
+    <!-- footer area start -->
+    @include('web.layouts.footer')
+    <!-- footer area end -->
 
-<div class="go-top"><i class="fas fa-level-up-alt"></i></div>
+    <div class="go-top"><i class="fas fa-level-up-alt"></i></div>
 
-<!-- Link of JS files -->
-@include('frontend')
+    <!-- Link of JS files -->
+    @include('web.layouts.scripts')
 </body>
+
 </html>
