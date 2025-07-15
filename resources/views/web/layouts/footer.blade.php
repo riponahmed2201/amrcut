@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-logo-area">
-                        <a href="index.html"><img src="assets/web/images/white-logo.png" alt="logo"></a>
+                        <a href="/"><img src="{{asset('assets/web/images/white-logo.png')}}" alt="logo"></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua quis ipsum facilisis. </p>
                         <div class="social-icons">
@@ -25,12 +25,13 @@
                     <div class="footer-links footer-quick-link footer-services">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="team.html">Our Experts</a></li>
-                            <li><a href="/services">Our Services</a></li>
-                            <li><a href="testimonial.html">Testimonials</a></li>
-                            <li><a href="pricing.html">Our Pricing Plans</a></li>
-                            <li><a href="blog.html">Our Latest News</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about-us">About Us</a></li>
+                            <li><a href="/contact-us">Contact Us</a></li>
+                            <li><a href="/about-us">Our Experts</a></li>
+                            <li><a href="/">Our Services</a></li>
+                            <li><a href="/">Testimonials</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,13 +39,13 @@
                     <div class="footer-links footer-services">
                         <h3>Services</h3>
                         <ul>
-                            <li><a href="/services">Feather</a></li>
-                            <li><a href="/services">Fibre</a></li>
-                            <li><a href="/services">Foam</a></li>
-                            <li><a href="/services">Combination Filling</a></li>
-                            <li><a href="/services">CAD/Cutting</a></li>
-                            <li><a href="/services">Sewing</a></li>
-                            <li><a href="/services">Transport</a></li>
+                            <li><a href="/feather">Feather</a></li>
+                            <li><a href="/fibre">Fibre</a></li>
+                            <li><a href="/foam">Foam</a></li>
+                            <li><a href="/combination-filling">Combination Filling</a></li>
+                            <li><a href="/cad-cutting">CAD/Cutting</a></li>
+                            <li><a href="/sewing">Sewing</a></li>
+                            <li><a href="/transport">Transport</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,9 +59,7 @@
                         </div>
                         <div class="footer-contact-card">
                             <h5>Email:</h5>
-                            <p><a href="/cdn-cgi/l/email-protection#067573767669747246716f756e7f2865696b"><span
-                                        class="__cf_email__"
-                                        data-cfemail="35464045455a474175425c465d4c1b565a58">[email&#160;protected]</span></a>
+                            <p><a href="javascript:void(0)"><span>amrcut@gmail.com</span></a>
                             </p>
                         </div>
                         <div class="footer-contact-card">

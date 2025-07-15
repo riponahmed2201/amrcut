@@ -245,12 +245,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                    <h2><strong>Request a CALLBACK</strong></h2>
                     <div class="appointment-form-area">
                         <form>
                             <input type="text" class="form-control" placeholder="Full Name" required="">
                             <input type="email" class="form-control" placeholder="Email Address" required="">
                             <input type="text" class="form-control" placeholder="Phone" required="">
-                            <button class="default-button" type="submit">Request a CALLBACK</button>
+                            <button class="default-button" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
