@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-logo-area">
-                        <a href="/"><img src="{{asset('assets/web/images/white-logo.png')}}" alt="logo"></a>
+                        <a href="/"><img src="{{ asset('assets/web/images/white-logo.png') }}" alt="logo"></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua quis ipsum facilisis. </p>
                         <div class="social-icons">
@@ -73,8 +73,7 @@
     </div>
     <div class="copyright">
         <div class="container">
-            <p>©{{ date('Y') }} Developed by <a href="https://riponahmed2201.github.io" target="_blank">Md. Ripon
-                    Mia</a>
+            <p>©{{ date('Y') }} Developed by <a href="https://amrcut.co.uk" target="_blank">Amrcut</a>
             </p>
         </div>
     </div>
