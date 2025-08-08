@@ -5,13 +5,15 @@
                 <div class="col-xl-10 col-lg-9 col-md-12 col-sm-12 col-12">
                     <div class="topbar-left-area">
                         <ul>
-                            <li><i class="fas fa-headphones"></i> <a href="tel:562601620">562-60-4620</a></li>
+                            <li><i class="fas fa-headphones"></i> <a href="tel:562601620">07535 458286</a></li>
                             <li><i class="fas fa-envelope"></i> <a
-                                    href=""><span>amrcut@gmail.com</span></a>
+                                    href=""><span>admin@cutmaketextileltd.co.uk</span></a>
                             </li>
-                            <li><i class="fas fa-map-marker-alt"></i> <a
-                                    href="https://goo.gl/maps/cxFkYVuFgj7tME648">25/50
-                                    Street Here United For Australia</a></li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i> <a href="javascript:void(0)">
+                                    54 Middleton Road Oldham OL9 6AD, England
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

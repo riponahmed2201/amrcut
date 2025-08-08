@@ -28,17 +28,20 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name" id="name" required>
+                                        <input type="text" class="form-control" placeholder="Name" id="name"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" id="email" required>
+                                        <input type="email" name="email" class="form-control" placeholder="Email"
+                                            id="email" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone_number" class="form-control" placeholder="Phone" id="phone_number" required>
+                                        <input type="text" name="phone_number" class="form-control" placeholder="Phone"
+                                            id="phone_number" required>
                                     </div>
                                 </div>
 
@@ -58,15 +61,19 @@
                         <div class="contact-card-area">
                             <div class="contact-card">
                                 <h5>Our Location</h5>
-                                <p><a href="https://goo.gl/maps/UstsfHuNvjGVxsTS9">25/50 Street Here United For Australia</a></p>
+                                <p><a href="javascrip:void(0)"> 54 Middleton Road Oldham OL9 6AD, England</a></p>
                             </div>
                             <div class="contact-card">
                                 <h5>Our Email</h5>
-                                <p><a href="/cdn-cgi/l/email-protection#cea6aba2a2a18eb9a7bda6b7e0ada1a3"><span class="__cf_email__" data-cfemail="f098959c9c9fb08799839889de939f9d">[email&#160;protected]</span></a></p>
+                                <p>
+                                    <a href="javascript:void(0)">
+                                        <span>admin@cutmaketextileltd.co.uk</span>
+                                    </a>
+                                </p>
                             </div>
                             <div class="contact-card">
                                 <h5>Our Phone</h5>
-                                <p><a href="tel:562601620">562-60-1620</a></p>
+                                <p><a href="tel:562601620">07535 458286</a></p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +85,8 @@
 
     <!-- google map area start -->
     <div class="google-map">
-        <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2371.0813443498755!2d-113.4208817841543!3d53.53846178001977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s25%2F50%20Street%20Here%20United%20For%20Australia!5e0!3m2!1sen!2sbd!4v1626086534014!5m2!1sen!2sbd"></iframe>
+        <iframe class="g-map"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2371.0813443498755!2d-113.4208817841543!3d53.53846178001977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s25%2F50%20Street%20Here%20United%20For%20Australia!5e0!3m2!1sen!2sbd!4v1626086534014!5m2!1sen!2sbd"></iframe>
     </div>
     <!-- google map area end -->
 @endsection

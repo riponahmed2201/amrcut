@@ -54,17 +54,18 @@
                         <h3>Contact Us</h3>
                         <div class="footer-contact-card">
                             <h5>Address:</h5>
-                            <p><a href="https://goo.gl/maps/cxFkYVuFgj7tME648">25/50 Street Here United For
-                                    Australia</a></p>
+                            <p><a href="javascrip:void(0)">
+                                    54 Middleton Road Oldham OL9 6AD, England
+                                </a></p>
                         </div>
                         <div class="footer-contact-card">
                             <h5>Email:</h5>
-                            <p><a href="javascript:void(0)"><span>amrcut@gmail.com</span></a>
+                            <p><a href="javascript:void(0)"><span>admin@cutmaketextileltd.co.uk</span></a>
                             </p>
                         </div>
                         <div class="footer-contact-card">
                             <h5>Phone:</h5>
-                            <p><a href="tel:562601620">562-60-1620</a></p>
+                            <p><a href="tel:562601620">07535 458286</a></p>
                         </div>
                     </div>
                 </div>
