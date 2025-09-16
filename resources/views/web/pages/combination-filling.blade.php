@@ -21,46 +21,38 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="pd-img">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
+                        <img src="{{ asset('assets/web/images/SWP-15-0805_140-55.jpg') }}" alt="image">
+                        <h3>Combination Fillings – The Perfect Balance of Comfort & Support</h3>
+                        <p>At <b>Amrcut</b>, we know every seat deserves the perfect feel. That’s why our
+                            <b>feather
+                                and fibre wrap
+                                cushions</b> are designed to offer the best of both worlds.
+                        </p>
                         <div class="sd-list-area">
                             <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
+                                <li>
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                    <span>
+                                        <b>Softness you’ll love</b> – Enjoy the luxurious comfort of feather or fibre
+                                        without the
+                                        constant need for plumping.
+                                    </span>
                                 </li>
                                 <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
+                                    <span><b>Consistent shape</b> – Our unique construction keeps your cushions looking neat
+                                        and
+                                        inviting day after day.</span>
                                 </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
+                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>
+                                        <b>Softer than foam</b> – With a feather topper gently softening the foam core, you
+                                        get a
+                                        supportive seat that feels just right.
+                                    </span>
                                 </li>
                             </ul>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+                        <p>Whether for everyday use or a touch of luxury, our <b>combination fillings</b> deliver comfort
+                            that lasts.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">

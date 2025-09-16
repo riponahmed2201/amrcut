@@ -21,46 +21,88 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="pd-img">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
-                                </div>
+                        <h3>Transport</h3>
+
+                        <!-- First section with loading process -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-7">
+                                <p>Our cushions are all loaded by hand and stacked into the relevant Lorries the cushions
+                                    will be loaded in area order for each customer. The cushions are all checked onto to the
+                                    lorry to make sure each customer is receiving all of their order correctly. The cushions
+                                    are then stacked with last drop off at the front of the lorry and the first drop off at
+                                    the back of the lorry.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/web/images/transport/SWP-15-0805_38-125-edited-300x200.jpg') }}"
+                                    alt="Loading truck with cushions" class="img-fluid">
                             </div>
                         </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="sd-list-area">
-                            <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
-                                </li>
-                            </ul>
+
+                        <!-- Second section with fleet information -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/web/images/transport/SWP-15-0805_185-104-300x200.jpg') }}"
+                                    alt="United Fillings delivery trucks" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>We have in total 11 Lorries over the 3 sites travelling Nationwide Daily. All our Lorries
+                                    are loaded by hand and are loaded in order to suit the customer's needs. We also so have
+                                    two vans at the Billingborough site and one at the Long Eaton site for local and small
+                                    deliveries.</p>
+                            </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+
+                        <!-- Third section with delivery service -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-7">
+                                <p>United Fillings delivers all their goods via their own vehicles all over the UK, we pride
+                                    ourselves on offering a regular delivery service to all areas of the UK.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/web/images/transport/SWP-15-0805_169-86-300x200.jpg') }}"
+                                    alt="United Fillings delivery van" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <!-- Fourth section with dispatch process -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/web/images/transport/SWP-15-0805_52-139-300x200.jpg') }}"
+                                    alt="Warehouse dispatch area" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>Once the cushions have been produced and packed they are then carted into despatch. Where
+                                    the cushions are then stacked into customer order into bays which are labelled by area
+                                    ready for loading on to the relevant lorry later on that day.</p>
+                            </div>
+                        </div>
+
+                        <!-- Additional transport details -->
+                        <div class="transport-details mt-5">
+                            <h3>Our Transport Services</h3>
+                            <div class="sd-list-area">
+                                <ul>
+                                    <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nationwide daily delivery service
+                                            across the UK</span></li>
+                                    <li><i class="fas fa-long-arrow-alt-right"></i> <span>Hand-loaded vehicles for maximum
+                                            care</span></li>
+                                    <li><i class="fas fa-long-arrow-alt-right"></i> <span>Strategic loading order for
+                                            efficient delivery routes</span></li>
+                                    <li><i class="fas fa-long-arrow-alt-right"></i> <span>Local delivery vans for small
+                                            orders and urgent deliveries</span></li>
+                                    <li><i class="fas fa-long-arrow-alt-right"></i> <span>Quality checking process before
+                                            dispatch</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="fleet-info mt-4">
+                            <h3>Our Fleet</h3>
+                            <p>With 11 lorries operating across our three sites and additional local delivery vans, we
+                                ensure comprehensive coverage and reliable service. Our vehicles are strategically
+                                positioned at Billingborough and Long Eaton sites to serve both large-scale deliveries and
+                                local requirements efficiently.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">

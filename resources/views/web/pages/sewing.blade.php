@@ -21,46 +21,19 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="pd-img">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="sd-list-area">
-                            <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+                        <img src="{{ asset('assets/web/images/sewing/SWP-15-0805_99-186-EDIT-300x200.jpg') }}"
+                            alt="image">
+                        <h3>Expertly Sewn Cushion Cases</h3>
+                        <p>Once your fabric is <b>cut to precise</b> sizes and organized by our CAD department, it moves to
+                            our
+                            sewing room. Here, each piece is carefully <b>sewn into a perfect cushion case</b>, with the
+                            <b>fill
+                                opening left ready</b> for adding the chosen cushion filling.</p>
+
+                        <p>Every step is handled with care, ensuring that your cushions are not only <b>beautifully
+                                crafted</b> but
+                            also <b>ready for comfort</b> the moment they’re filled.</p>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">

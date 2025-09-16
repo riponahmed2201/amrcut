@@ -19,50 +19,58 @@
     <div class="project-details pt-100 pb-70 details-page">
         <div class="container">
             <div class="row">
+                <!-- Left Content -->
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="pd-img">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="sd-list-area">
-                            <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+
+                        <h2>The Process</h2>
+
+                        <h3>Fibre Seat Filling</h3>
+                        <img src="{{ asset('assets/web/images/SWP-15-0805_67-154-300x200.jpg') }}" alt="Fibre Seat Filling"
+                            class="mb-3">
+                        <p>
+                            All our fibre seat cushions cases have channels sewn inside to help prevent the fibre
+                            moving around the case. Each roll of fibre is weighed before it is hand filled inside the
+                            channel to make sure the cushion is the correct weight and density for the customer.
+                        </p>
+
+                        <h3>Blow Line Back Filling</h3>
+                        <img src="{{ asset('assets/web/images/SWP-15-0805_82-169-300x200.jpg') }}"
+                            alt="Blow Line Back Filling" class="mb-3">
+                        <p>
+                            All our fibre backs are filled with conjugated fibre. The fibre is blown into channels inside
+                            the back covers to stop the fibre moving around. Once the backs are filled they are then
+                            weighed to make sure they are the correct weight and density for the customer’s needs.
+                            Once they have been weighed they are then sent down the conveyor belt for the filling
+                            hole to be sewn up. Once sewn they’re then packed and taken to despatch.
+                        </p>
+
+                        <h3>Fibre Examples</h3>
+                        <img src="{{ asset('assets/web/images/SWP-15-0805_161-78-768x313.jpg') }}" alt="Fibre Examples"
+                            class="mb-3">
+                        <p>
+                            We supply a range of fibre fillings to meet all customers style of cushions needs.
+                        </p>
+                        <p><strong>Back Fibre:</strong> Conjugate of various denier strengths, branded and unbranded
+                            available.</p>
+                        <p><strong>Seat Fibres:</strong> Advansa Fusion Quallofil, a blend of spiral and hollowfibres,
+                            Wellmans Eco-core conjugate fibre & Wellmans Hollowfibre.</p>
+
+                        <h3>The Final Product</h3>
+                        <h4>Fibre Cushions</h4>
+                        <img src="{{ asset('assets/web/images/SWP-15-0805_148-63-768x361.jpg') }}" alt="Fibre Cushions"
+                            class="mb-3">
+                        <p>
+                            We supply fibre cushion seats and backs in various cloth, CORDURIN, BARRIER, CALICO, COTTON.
+                            <br>
+                            The fillings we can offer are Wellman branded fibres, Advansa Quallofil and different denier
+                            conjugates fibres for mostly back cushions.
+                        </p>
+
                     </div>
                 </div>
+
+                <!-- Right Sidebar (Callback Form only) -->
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="sidebar-area pt-30">
                         <div>

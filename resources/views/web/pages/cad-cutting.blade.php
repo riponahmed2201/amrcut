@@ -21,46 +21,34 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
                         <div class="pd-img">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
+                                    <img src="{{ asset('assets/web/images/project/p2.jpg') }}" alt="image">
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
+                                    <img src="{{ asset('assets/web/images/project/p3.jpg') }}" alt="image">
                                 </div>
                             </div>
                         </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="sd-list-area">
-                            <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+                        <h3>Precision Cushions, Every Time – With Amrcut</h3>
+                        <p>At <strong>Amrcut</strong>, we don’t just cut cushions — we craft precision. Using our
+                            state-of-the-art
+                            <strong>Lectra cutting machine</strong>, every cushion is shaped to the exact sizes specified in
+                            your
+                            personal
+                            CAD file,
+                            digitized with care.
+                        </p>
+
+                        <p>The result? <strong>Perfect consistency, flawless accuracy, and repeatable quality</strong>—every
+                            single time you
+                            order.</p>
+
+                        <p>Once your design is on our <strong>Lectra CAD system</strong>, it stays there securely, ensuring
+                            your cushions are
+                            always cut to the same original specifications. No guesswork. No variation. Just the precision
+                            you can trust.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">

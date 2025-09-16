@@ -21,46 +21,109 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="project-details-text-area pr-20">
-                        <img src="assets/web/images/inner-images/pd1.jpg" alt="image">
-                        <h3>Residential Carpenter Service</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
+                        <h3>Foam</h3>
+                        <p>United Fillings Ltd. purchase their raw materials from the UK's major manufacturers and stock a
+                            wide variety of grades, with an emphasis on quality, including the highly regarded Reflex range.
+                        </p>
+
+                        <p>The blocks that we use can be sliced into sheets, profile cut to shape, fabricated to form
+                            complex shapes and packaged to meet your individual requirements.</p>
+
+                        <p>We have state of the art CNC cutting capabilities, enabling us to cut any two dimensional shapes
+                            with great accuracy and consistency.</p>
+
+                        <!-- Foam process images -->
                         <div class="pd-img">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p2.jpg" alt="image">
+                                <div class="col-md-4">
+                                    <img src="{{ asset('assets/web/images/foam/band_main-300x229.jpg') }}"
+                                        alt="Foam cutting process" class="img-fluid">
+                                    <p class="text-center mt-2"><small>Click on any of the thumbnails above to see an
+                                            enlarged view of the photograph.</small></p>
                                 </div>
-                                <div class="col-md-6">
-                                    <img src="assets/web/images/project/p3.jpg" alt="image">
+                                <div class="col-md-4">
+                                    <img src="{{ asset('assets/web/images/foam/cnc_main-300x201.jpg') }}"
+                                        alt="Foam shaping process" class="img-fluid">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="{{ asset('assets/web/images/foam/auto_main-300x225.jpg') }}"
+                                        alt="Foam packaging process" class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                        <h3>Project Summary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra maecenas accumsan lacus vel facilisis. It is a long established fact that a reader
-                            will be distracted by the readable content of a page when.</p>
-                        <div class="sd-list-area">
-                            <ul>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Those who do not know how to pursue</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i>
-                                    <span>Pleasure rationally encounter</span></li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Consequences that are extremely painful.</span>
-                                </li>
-                                <li><i class="fas fa-long-arrow-alt-right"></i> <span>Nor again is there anyone who loves or pursues</span>
-                                </li>
-                            </ul>
+
+                        <h3>Foam Classifications</h3>
+                        <p>In the majority of cases, flexible slabstock polyurethane foam is purchased on the basis of
+                            density and load bearing properties. The British Standard BS5379 covers specifications for
+                            flexible polyurethane foam for load bearing purposes and lays down performance requirements.
+                            Typical applications in BS5379:1991 (AMD 7126) are listed below:</p>
+
+                        <!-- Foam classification table -->
+                        <div class="table-responsive mt-4">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Type of Class</th>
+                                        <th>Recommended Applications</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center"><strong>X</strong></td>
+                                        <td>Extremely Severe</td>
+                                        <td>
+                                            Heavy duty contract seats.<br>
+                                            Heavy duty public transport seats.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><strong>V</strong></td>
+                                        <td>Very Severe</td>
+                                        <td>
+                                            Public transport seats.<br>
+                                            Cinema & Theatre seats.<br>
+                                            Contract furniture seats.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><strong>S</strong></td>
+                                        <td>Severe</td>
+                                        <td>
+                                            Private & commercial vehicle seats.<br>
+                                            Domestic furniture seats.<br>
+                                            Public transport backs & armrests.<br>
+                                            Cinema & theatre backs & armrests.<br>
+                                            Contract furniture backs & armrests.<br>
+                                            Domestic foam mattress cores.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><strong>A</strong></td>
+                                        <td>Average</td>
+                                        <td>
+                                            Private vehicle backs & armrests.<br>
+                                            Domestic furniture backs & armrests.<br>
+                                            Component layers for domestic mattresses (excluding cores).
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><strong>L</strong></td>
+                                        <td>Light</td>
+                                        <td>
+                                            Padding, scatter cushions & pillows.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <h3>Result</h3>
-                        <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get
-                            set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin
-                            their way the only way they know how. That’s just a little bit more than the law will
-                            allow.</p>
+
+                        <h3>Our Service Coverage</h3>
+                        <p>We supply seats, backs and upholstery kit foams to most of the UK's leading manufacturers from
+                            our factories in Long Eaton, Derbyshire and Billingborough, Lincolnshire.</p>
+
+                        <p>Along with our feather and fibre facilities, we can in short, provide a complete solution to your
+                            requirements.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">

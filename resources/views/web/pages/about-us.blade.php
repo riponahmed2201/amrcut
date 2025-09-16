@@ -5,7 +5,7 @@
     <div class="uni-banner">
         <div class="container">
             <div class="uni-banner-text-area">
-                <h1>About Our Company</h1>
+                <h1>About Us</h1>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li>About Us</li>
@@ -18,45 +18,133 @@
     <!-- about area start -->
     <div class="about ptb-100">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="about-img">
-                        <img src="{{asset('assets/web/images/about/a1.jpg')}}" alt="image">
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="about-text-area">
-                        <div class="default-section-title">
-                            <h6>About Our Company</h6>
-                            <h3>What You Get From Our Dedicated Company With Our Wishy</h3>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="about-content-area pr-20">
+                        <h3>About Us</h3>
+
+                        <!-- Company formation section -->
+                        <div class="row align-items-center mb-4">
+                            <div class="col-md-5">
+                                <img src="{{ asset('assets/web/images/SWP-15-0805_40-127-300x200.jpg') }}"
+                                    alt="UFL Company Building" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>UFL was formed in September 1990 after the merger of two companies, Feathermade Ltd and
+                                    Southern Feather Products.</p>
+
+                                <p>The company's core business is the supply of quality cushion interiors to the furniture
+                                    upholstery and soft furnishings industry. Products include foam, feather, fibre
+                                    including numerous mixes as well as combinations of the three.</p>
+
+                                <p>The company has three separate factories with square footage in excess of 70,000 ft.²</p>
+                            </div>
                         </div>
-                        <div class="about-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incdidunt
-                                ut labore et dolore magna commodo viverra maecenas accumsan facilisis.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incdidunt
-                                ut labore et dolore magna commodo viverra maecenas accumsan facilisis totam rem aperiam
-                                eaque quae abillo inventore veritatis quasi architecto.</p>
-                            <div class="about-card-area">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4 col-sm-4 col-6">
-                                        <div class="about-card">
-                                            <i class="flaticon-consistency"></i>
-                                            <h4><a href="/about-us">Consistency</a></h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-6">
-                                        <div class="about-card">
-                                            <i class="flaticon-strategy"></i>
-                                            <h4><a href="/about-us">Strategy</a></h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-6">
-                                        <div class="about-card">
-                                            <i class="flaticon-return-of-investment"></i>
-                                            <h4><a href="/about-us">Investment</a></h4>
-                                        </div>
+
+                        <p>There are currently 150 people working within the company across the three sites at the Falcon
+                            Mill in Billingborough (Headquarters), Kestrel Mill in Billingborough and Goodwin Mills in Long
+                            Eaton.</p>
+
+                        <!-- Our Aim section -->
+                        <div class="company-section mt-5">
+                            <h3>Our aim</h3>
+                            <p>The company's aim is to supply a bespoke cushion service to all its customers with in a five
+                                working day turnaround. There is no minimum or maximum order. The vast majority of the
+                                cushions are delivered on our own transport and any small quantities are despatched by our
+                                overnight carriers.</p>
+                        </div>
+
+                        <!-- Products section -->
+                        <div class="company-section mt-5">
+                            <h3>Products</h3>
+                            <p>We offer a vast range of cushion products for seats, backs, arms, scatters as well as foam
+                                tacking kits. The feather options range from economical china duck all the way up to the
+                                luxurious down fillings. The fibre options include unbranded conjugated fibres and Wellmans
+                                & Advansa Fusion branded fibres.</p>
+                        </div>
+
+                        <!-- Company structure -->
+                        <div class="company-section mt-4">
+                            <h4>The company structure</h4>
+                            <p>The company is privately run and owned by Nigel Prue and Paul Herszaft. In August 2002 the
+                                management completed a buyout from the existing owner Bob Burns. Between them they have over
+                                50 years' experience in the cushion industry.</p>
+                        </div>
+
+                        <!-- Departments section -->
+                        <div class="company-section mt-5">
+                            <h3>Departments</h3>
+
+                            <div class="department-item mb-4">
+                                <h4>Development</h4>
+                                <p>Our prototype manager is available to visit customers anywhere in the UK to help develop
+                                    and advise on all the various filling options.</p>
+                            </div>
+
+                            <div class="department-item mb-4">
+                                <h4>Sales</h4>
+                                <p>Our dedicated sales and office staff are contactable daily from 8am till 5pm.</p>
+                            </div>
+
+                            <div class="department-item mb-4">
+                                <h4>Production</h4>
+                                <p>All our three factories are set up to be extremely versatile to react quickly and
+                                    efficiently to produce small and large quantities.</p>
+                            </div>
+                        </div>
+
+                        <!-- Company values -->
+                        <div class="company-values mt-5">
+                            <h3>Our Values</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="value-card text-center p-3">
+                                        <i class="flaticon-consistency fa-3x mb-3"></i>
+                                        <h5>Quality</h5>
+                                        <p>Premium materials and craftsmanship in every product</p>
                                     </div>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="value-card text-center p-3">
+                                        <i class="flaticon-strategy fa-3x mb-3"></i>
+                                        <h5>Service</h5>
+                                        <p>Dedicated customer support and quick turnaround times</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="value-card text-center p-3">
+                                        <i class="flaticon-return-of-investment fa-3x mb-3"></i>
+                                        <h5>Innovation</h5>
+                                        <p>Continuous improvement and cutting-edge solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="sidebar-area pt-30">
+                        <div>
+                            <h3>Request a CALLBACK</h3>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="appointment-form-area">
+                                        <form action="#" method="POST">
+                                            <input type="text" class="form-control" placeholder="Name" required>
+                                            <input type="email" class="form-control" placeholder="Email" required>
+                                            <input type="text" class="form-control" placeholder="Phone" required>
+                                            <button class="default-button" type="submit">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-bar-contact">
+                            <div class="sd-content">
+                                <h3>Need Any Help</h3>
+                                <p>Contact us for expert advice on cushion solutions and filling options</p>
+                                <h4><a href="tel:562604620">Call Us: 562-60-1620</a></h4>
                             </div>
                         </div>
                     </div>
@@ -65,91 +153,4 @@
         </div>
     </div>
     <!-- about area end -->
-
-    <!-- what we do area start -->
-    <div class="we-do bg-f9f9f9 ptb-100">
-        <div class="container">
-            <div class="default-section-title default-section-title-middle">
-                <h6>What We Do</h6>
-                <h3>Our Services Professional Entrepreneurial GUI</h3>
-            </div>
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="we-do-card">
-                            <i class="flaticon-carpenter"></i>
-                            <h4><a href="/about-us">Carpenter Working With Wood</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed commodo maecenas accu
-                                facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="we-do-card">
-                            <i class="flaticon-drill"></i>
-                            <h4><a href="/about-us">Beautiful Driller Press Operator</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed commodo maecenas accu
-                                facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="we-do-card">
-                            <i class="flaticon-warehouse"></i>
-                            <h4><a href="/about-us">The Worker Factory Production</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed commodo maecenas accu
-                                facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="we-do-card">
-                            <i class="flaticon-carpenter-1"></i>
-                            <h4><a href="/about-us">The Worker Twisted His Ankle</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed commodo maecenas accu
-                                facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- what we do area end -->
-
-    <!-- why choose Us area start -->
-    <div class="why-we ptb-100">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="why-we-text-area why-we-text-area-2">
-                        <div class="default-section-title">
-                            <h6>Some Areas Covered By Us</h6>
-                            <h3>Our Company Also Works Outside The Country</h3>
-                        </div>
-                        <div class="why-we-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incdidunt
-                                ut labore et dolore magna commodo viverra maecenas accumsan facilisis.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incdidunt
-                                ut labore et dolore magna commodo viverra maecenas accumsan facilisis totam rem aperiam
-                                eaque quae abillo inventore veritatis quasi architecto.</p>
-                            <div class="ww-list">
-                                <ul>
-                                    <li><i class="far fa-check-square"></i> <span>Seek Emergency Services</span></li>
-                                    <li><i class="far fa-check-square"></i> <span>AC And Heating Repair</span></li>
-                                    <li><i class="far fa-check-square"></i> <span>Commercial Plumbing </span></li>
-                                    <li><i class="far fa-check-square"></i> <span>Team Of Trustworthy</span></li>
-                                    <li><i class="far fa-check-square"></i> <span>Renovation And Makeover </span></li>
-                                    <li><i class="far fa-check-square"></i> <span>Cooling System Repair</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="why-we-img-2">
-                        <img class="ww2-main" src="{{asset('assets/web/images/why-we/ww-2s.png')}}" alt="image">
-                        <img class="middle-img" src="{{asset('assets/web/images/why-we/ww-m.png')}}" alt="image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- why choose us area end -->
 @endsection
