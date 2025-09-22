@@ -1033,7 +1033,7 @@ Index 01 banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../images/banner/banner-3.jpg");
+  background-image: url("../images/slider/06.jpg");
   position: relative;
 }
 
@@ -1050,11 +1050,11 @@ Index 01 banner Area CSS
 }
 
 .mbs2 {
-  background-image: url("../images/banner/banner-1.jpg");
+  background-image: url("../images/slider/03.jpg");
 }
 
 .mbs3 {
-  background-image: url("../images/banner/banner-2.jpg");
+  background-image: url("../images/slider/06.jpg");
 }
 
 .banner-text-area {
@@ -1909,7 +1909,7 @@ Index 01 Footer Area CSS
   margin-bottom: 8px;
 }
 
-/*================================================ 
+/*================================================
 CopyRight Area CSS
 =================================================*/
 .copyright {
@@ -1998,7 +1998,7 @@ Index 02 Banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../images/banner/home2-banner-bg.jpg");
+  background-image: url("../images/slider/06.jpg");
 }
 
 .banner-text-area-2 {
@@ -2716,7 +2716,7 @@ Index 03 Blog Area CSS
           transform: translateY(-10px);
 }
 
-/*================================================ 
+/*================================================
 Uni Banner Area CSS
 =================================================*/
 .uni-banner {

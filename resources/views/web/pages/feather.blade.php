@@ -97,30 +97,31 @@
                 </div>
 
                 <!-- Right Sidebar -->
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="sidebar-area pt-30">
-                        <div>
-                            <h3>Request a CALLBACK</h3>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="appointment-form-area">
-                                        <form action="#" method="POST">
-                                            <input type="text" class="form-control" placeholder="Name" required>
-                                            <input type="email" class="form-control" placeholder="Email" required>
-                                            <input type="text" class="form-control" placeholder="Phone" required>
-                                            <button class="default-button" type="submit">Submit</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+              <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="callback-form bg-white shadow rounded p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-phone-alt fs-3 me-2" style="color: #f87a01"></i>
+                            <h5 class="mb-0 fw-bold" style="color: #f87a01">Request a CALLBACK</h5>
                         </div>
-                        <div class="side-bar-contact">
-                            <div class="sd-content">
-                                <h3>Need Any Help</h3>
-                                <p>Carpenter services however, to explain to you how all this mistaken pleasure</p>
-                                <h4><a href="tel:562604620">Call Us: 562-60-1620</a></h4>
+                        <form action="" method="POST">
+                            @csrf
+                            <div class="mb-3">
+                                <label class="form-label">Your name: <span class="text-danger">*</span></label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter your name"
+                                    required>
                             </div>
-                        </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email address: <span class="text-danger">*</span></label>
+                                <input type="email" name="email" class="form-control" placeholder="Enter your email"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Phone number: <span class="text-danger">*</span></label>
+                                <input type="text" name="phone" class="form-control" placeholder="Enter your phone"
+                                    required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">SUBMIT</button>
+                        </form>
                     </div>
                 </div>
             </div>

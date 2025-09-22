@@ -4,7 +4,10 @@
         <div class="main-responsive-nav">
             <div class="container">
                 <div class="mobile-nav">
-                    <a href="/" class="logo"><img src="{{asset('assets/web/images/small-logo.png')}}" alt="logo"></a>
+                    <a href="/" class="logo">
+                        {{-- <img src="{{asset('assets/web/images/small-logo.png')}}" alt="logo"> --}}
+                        Amrcut
+                    </a>
                     <ul class="menu-sidebar menu-small-device">
                         <li><a class="default-button" href="/contact-us">Request a CALLBACK</a></li>
                     </ul>
@@ -16,7 +19,8 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="/">
-                        <img src="{{asset('assets/web/images/logo.png')}}" alt="logo">
+                        {{-- <img src="{{ asset('assets/web/images/logo.png') }}" alt="logo"> --}}
+                          Amrcut
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
@@ -47,13 +51,13 @@
                             </li>
                             <li class="nav-item">
                                 <a href="/combination-filling"
-                                   class="nav-link {{ Request::is('combination-filling') ? 'active' : '' }}">
+                                    class="nav-link {{ Request::is('combination-filling') ? 'active' : '' }}">
                                     Combination Filling
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="/cad-cutting"
-                                   class="nav-link {{ Request::is('cad-cutting') ? 'active' : '' }}">
+                                    class="nav-link {{ Request::is('cad-cutting') ? 'active' : '' }}">
                                     CAD/Cutting
                                 </a>
                             </li>

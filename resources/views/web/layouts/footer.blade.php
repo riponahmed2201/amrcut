@@ -2,11 +2,15 @@
     <div class="container">
         <div class="footer-content ptb-100">
             <div class="row">
+                <!-- Company Logo & About -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-logo-area">
-                        <a href="/"><img src="{{ asset('assets/web/images/white-logo.png') }}" alt="logo"></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua quis ipsum facilisis. </p>
+                        <a href="/" class="footer-logo-text">Amrcut</a>
+                        <p>
+                            Amrcut is a trusted company that provides high-quality textile and upholstery solutions. We
+                            prioritize premium materials, modern techniques, and the highest level of customer
+                            satisfaction.
+                        </p>
                         <div class="social-icons">
                             <ul>
                                 <li><a href="https://www.facebook.com/" target="_blank"><i
@@ -21,6 +25,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Quick Links -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links footer-quick-link footer-services">
                         <h3>Quick Links</h3>
@@ -35,6 +41,8 @@
                         </ul>
                     </div>
                 </div>
+
+                <!-- Services -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links footer-services">
                         <h3>Services</h3>
@@ -49,33 +57,49 @@
                         </ul>
                     </div>
                 </div>
+
+                <!-- Contact Info -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="footer-links">
                         <h3>Contact Us</h3>
                         <div class="footer-contact-card">
                             <h5>Address:</h5>
-                            <p><a href="javascrip:void(0)">
+                            <p><a href="javascript:void(0)">
                                     54 Middleton Road Oldham OL9 6AD, England
                                 </a></p>
                         </div>
                         <div class="footer-contact-card">
                             <h5>Email:</h5>
-                            <p><a href="javascript:void(0)"><span>admin@cutmaketextileltd.co.uk</span></a>
-                            </p>
+                            <p><a href="mailto:admin@cutmaketextileltd.co.uk">admin@cutmaketextileltd.co.uk</a></p>
                         </div>
                         <div class="footer-contact-card">
                             <h5>Phone:</h5>
-                            <p><a href="tel:562601620">07535 458286</a></p>
+                            <p><a href="tel:07535458286">07535 458286</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Copyright -->
     <div class="copyright">
         <div class="container">
-            <p>©{{ date('Y') }} Developed by <a href="https://amrcut.co.uk" target="_blank">Amrcut</a>
-            </p>
+            <p>©{{ date('Y') }} Developed by <a href="https://amrcut.co.uk" target="_blank">Amrcut</a></p>
         </div>
     </div>
 </div>
+
+<!-- Extra CSS for text logo -->
+<style>
+    .footer-logo-text {
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-logo-text:hover {
+        color: #ffcc00;
+    }
+</style>
